@@ -30,11 +30,12 @@
     name: store-preset-name-tti-uplink
     categories:
     - UplinkTTIUtility
-    - UplinkTTIHardsuits
+    - UplinkTTIEquip
     - UplinkTTIWeapons
     - UplinkTTIAmmo
     - UplinkTTIBundles
     - UplinkTTIBlueprints
+    - UplinkTTIMed
     currencyWhitelist:
     - TTIMedicalCredit
     balance:

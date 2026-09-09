@@ -27,7 +27,7 @@
   - type: StaticPrice
     price: 0
   - type: StackPrice
-    price: 40
+    price: 400
   - type: Currency
     price:
       TTIMedicalCredit: 1

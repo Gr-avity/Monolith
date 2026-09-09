@@ -37,11 +37,12 @@
   - type: Store
     categories:
     - UplinkTTIUtility
-    - UplinkTTIHardsuits
+    - UplinkTTIEquip
     - UplinkTTIWeapons
     - UplinkTTIAmmo
     - UplinkTTIBundles
     - UplinkTTIBlueprints
+    - UplinkTTIMed
     balance:
       TTIMedicalCredit: 25
   - type: AccessReader

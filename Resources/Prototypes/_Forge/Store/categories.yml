@@ -66,8 +66,8 @@
   name: store-category-ttiutility
 
 - type: storeCategory
-  id: UplinkTTIHardsuits
-  name: store-category-ttihardsuits
+  id: UplinkTTIEquip
+  name: store-category-ttiequip
 
 - type: storeCategory
   id: UplinkTTIWeapons
@@ -84,3 +84,7 @@
 - type: storeCategory
   id: UplinkTTIBlueprints
   name: store-category-ttiblueprints
+
+- type: storeCategory
+  id: UplinkTTIMed
+  name: store-category-ttimed

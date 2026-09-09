@@ -89,3 +89,32 @@
           amount: 1
         - id: PlumberClothingOuterWitch
           amount: 1
+
+- type: entity
+  parent: ClothingBackpackDuffelTrauma
+  id: ClothingBackpackDuffelTraumaSurgeryBundle
+  components:
+  - type: StorageFill
+    contents:
+      - id: Hemostat
+      - id: SawAdvanced
+      - id: Drill
+      - id: Cautery
+      - id: Retractor
+      - id: ScalpelAdvanced
+      - id: ClothingHandsGlovesNitrile
+      - id: EmergencyRollerBedSpawnFolded
+      - id: BoneGel
+      - id: NitrousOxideTankFilled
+      - id: ClothingMaskBreathMedical
+
+- type: entity
+  parent: ClothingBackpackDuffelTrauma
+  id: ClothingBackpackDuffelTraumaFilledBulldog
+  components:
+  - type: StorageFill
+    contents:
+      - id: WeaponShotgunBulldog
+      - id: Magazine12_gaugeSlugRIP
+      - id: Magazine12_gaugeSlugAP
+      - id: Magazine12_gaugeBuckshot

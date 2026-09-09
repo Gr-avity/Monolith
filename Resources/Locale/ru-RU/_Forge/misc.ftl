@@ -1,2 +1,2 @@
-forge-engraving-generic-has-message = "{$object}" имеет гравировку: {$message}
-engraving-TTIStaff = Произведено Trauma Team International
+forge-engraving-generic-has-message = Имеет аккуратную гравировку: {$message}
+engraving-TTIStaff = Trauma Team International

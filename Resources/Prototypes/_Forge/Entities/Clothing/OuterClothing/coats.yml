@@ -132,7 +132,7 @@
     tags:
     - TTIEquip
   - type: Engraveable # Forge-change
-    engravedMessage: engraving-TTIStaff
+    engravedMessage: Trauma Team International
     hasEngravingText: forge-engraving-generic-has-message
 
 - type: entity
@@ -150,7 +150,7 @@
     tags:
     - TTIEquip
   - type: Engraveable # Forge-change
-    engravedMessage: engraving-TTIStaff
+    engravedMessage: Trauma Team International
     hasEngravingText: forge-engraving-generic-has-message
 
 - type: entity
