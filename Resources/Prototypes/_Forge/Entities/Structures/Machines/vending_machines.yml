@@ -360,6 +360,7 @@
       map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
   - type: AccessReader
     access: [["Command"]]
+    requiredCompany: Colonial # Oh, sorry, DoC. You dont have perms to take that shit unless theres an SR in the round
 
 - type: entity
   parent: [VendingMachineAstroVend, BaseStructureDisableToolUse, BaseStructureAccessReaderImmuneToEmag]

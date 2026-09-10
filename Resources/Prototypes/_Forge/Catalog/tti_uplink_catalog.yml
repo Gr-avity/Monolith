@@ -23,7 +23,7 @@
   productEntity: ClothingBackpackDuffelTraumaFilledBulldog
   icon: { sprite: /Textures/Objects/Weapons/Guns/Shotguns/bulldog.rsi, state: icon }
   cost:
-    TTIMedicalCredit: 35
+    TTIMedicalCredit: 65
   categories:
     - UplinkTTIWeapons
   conditions:
@@ -205,6 +205,8 @@
 
 - type: listing
   id: UplinkTTISpaceCash25000
+  name: uplink-tti-spacecash25000-name
+  description: uplink-tti-spacecash25000-desc
   productEntity: SpaceCash25000
   cost:
     TTIMedicalCredit: 45
@@ -218,6 +220,8 @@
 
 - type: listing
   id: UplinkTTISpaceCash30000
+  name: uplink-tti-spacecash30000-name
+  description: uplink-tti-spacecash30000-desc
   productEntity: SpaceCash30000
   cost:
     TTIMedicalCredit: 40
@@ -235,12 +239,11 @@
 
 - type: listing
   id: UplinkTTIClothingHeadHatArmoredTrauma
-  name:  uplink-tti-clothingheadhatarmoredtrauma-name
   description: uplink-tti-clothingheadhatarmoredtrauma-desc
   productEntity: ClothingHeadHatArmoredTrauma
   icon: { sprite: _Forge/Clothing/Head/Helmets/tti.rsi, state: icon }
   cost:
-    TTIMedicalCredit: 20
+    TTIMedicalCredit: 35
   categories:
     - UplinkTTIEquip
   conditions:
@@ -253,12 +256,11 @@
 
 - type: listing
   id: UplinkTTIClothingHeadHatArmoredTraumaShooter
-  name:  uplink-tti-clothingheadhatarmoredtraumashooter-name
   description: uplink-tti-clothingheadhatarmoredtraumashooter-desc
   productEntity: ClothingHeadHatArmoredTraumaShooter
   icon: { sprite: _Forge/Clothing/Head/Hardsuits/tti_hardsuit_shooter.rsi, state: icon }
   cost:
-    TTIMedicalCredit: 20
+    TTIMedicalCredit: 40
   categories:
     - UplinkTTIEquip
   conditions:
@@ -271,12 +273,11 @@
 
 - type: listing
   id: UplinkTTIClothingOuterArmorBodyTrauma
-  name:  uplink-tti-clothingouterarmorbodytrauma-name
   description: uplink-tti-clothingouterarmorbodytrauma-desc
   productEntity: ClothingOuterArmorBodyTrauma
   icon: { sprite: _Forge/Clothing/OuterClothing/Armor/tti_west.rsi, state: icon }
   cost:
-    TTIMedicalCredit: 30
+    TTIMedicalCredit: 55
   categories:
     - UplinkTTIEquip
   conditions:
@@ -289,12 +290,11 @@
 
 - type: listing
   id: UplinkTTIClothingOuterHardsuitTrauma
-  name:  uplink-tti-clothingouterhardsuittrauma-name
   description: uplink-tti-clothingouterhardsuittrauma-desc
   productEntity: ClothingOuterHardsuitTrauma
   icon: { sprite: _Forge/Clothing/OuterClothing/Hardsuits/tti_hardsuit.rsi, state: icon }
   cost:
-    TTIMedicalCredit: 45
+    TTIMedicalCredit: 85
   categories:
     - UplinkTTIEquip
   conditions:
@@ -307,12 +307,11 @@
 
 - type: listing
   id: UplinkTTIClothingOuterHardsuitTraumaShooter
-  name:  uplink-tti-clothingouterhardsuittraumashooter-name
   description: uplink-tti-clothingouterhardsuittraumashooter-desc
   productEntity: ClothingOuterHardsuitTraumaShooter
   icon: { sprite: _Forge/Clothing/OuterClothing/Hardsuits/tti_shooter_hardsuit.rsi, state: icon }
   cost:
-    TTIMedicalCredit: 50
+    TTIMedicalCredit: 95
   categories:
     - UplinkTTIEquip
   conditions:
@@ -325,12 +324,11 @@
 
 - type: listing
   id: UplinkTTIClothingShoesBootsMagTrauma
-  name:  uplink-tti-clothingshoesbootsmagtrauma-name
   description: uplink-tti-clothingshoesbootsmagtrauma-desc
   productEntity: ClothingShoesBootsMagTrauma
   icon: { sprite: _Forge/Clothing/Shoes/Boots/tti_magboots.rsi, state: icon }
   cost:
-    TTIMedicalCredit: 20
+    TTIMedicalCredit: 35
   categories:
     - UplinkTTIEquip
   conditions:
