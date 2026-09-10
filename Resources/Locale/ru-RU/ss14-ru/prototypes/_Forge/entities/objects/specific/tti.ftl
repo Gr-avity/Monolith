@@ -13,3 +13,6 @@ ent-TTIMedicalCredit25 = { ent-TTIMedicalCredit }
 ent-TTIMedicalCredit50 = { ent-TTIMedicalCredit }
     .suffix = 50
     .desc = { ent-TTIMedicalCredit.desc }
+
+ent-TTIHandheldCrewMonitor = портативный монитор
+    .desc = Ручной монитор датчиков, отображающий состояние премиальных клиентов.

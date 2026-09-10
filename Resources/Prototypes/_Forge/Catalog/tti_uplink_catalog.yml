@@ -23,7 +23,7 @@
   productEntity: ClothingBackpackDuffelTraumaFilledBulldog
   icon: { sprite: /Textures/Objects/Weapons/Guns/Shotguns/bulldog.rsi, state: icon }
   cost:
-    TTIMedicalCredit: 65
+    TTIMedicalCredit: 70
   categories:
     - UplinkTTIWeapons
   conditions:
@@ -32,7 +32,25 @@
         tags:
           - FactionStaticUplinkTTI
     - !type:ListingLimitedStockCondition
-      stock: 5
+      stock: 3
+
+- type: listing
+  id: UplinkTTIMla73
+  name: ent-WeaponSubMachineGunMla73Registered
+  description: ent-WeaponSubMachineGunMla73Registered.desc
+  productEntity: ClothingBackpackDuffelTraumaFilledMla73
+  icon: { entity: WeaponSubMachineGunMla73Registered }
+  cost:
+    TTIMedicalCredit: 55
+  categories:
+    - UplinkTTIWeapons
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - FactionStaticUplinkTTI
+    - !type:ListingLimitedStockCondition
+      stock: 3
 
 # region Ammo
 
@@ -559,6 +577,59 @@
           - FactionStaticUplinkTTI
     - !type:ListingLimitedStockCondition
       stock: 5
+
+- type: listing
+  id: UplinkTTIMaterialsBasic
+  name:  uplink-tti-MaterialsBasic-name
+  description: uplink-tti-MaterialsBasic-desc
+  productEntity: CrateMaterialsBasicFilled
+  cost:
+    TTIMedicalCredit: 10
+  categories:
+    - UplinkTTIBundles
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - FactionStaticUplinkTTI
+    - !type:ListingLimitedStockCondition
+      stock: 5
+
+- type: listing
+  id: UplinkTTIMaterialsAdvanced
+  name:  uplink-tti-MaterialsAdv-name
+  description: uplink-tti-MaterialsAdv-desc
+  productEntity: CrateMaterialsAdvancedFilled
+  cost:
+    TTIMedicalCredit: 15
+  categories:
+    - UplinkTTIBundles
+  restockTime: 900
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - FactionStaticUplinkTTI
+    - !type:ListingLimitedStockCondition
+      stock: 4
+
+- type: listing
+  id: UplinkTTIMaterialsSuper
+  name:  uplink-tti-MaterialsSuper-name
+  description: uplink-tti-MaterialsSuper-desc
+  productEntity: CrateMaterialsSuperFilled
+  cost:
+    TTIMedicalCredit: 25
+  categories:
+    - UplinkTTIBundles
+  restockTime: 3600
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - FactionStaticUplinkTTI
+    - !type:ListingLimitedStockCondition
+      stock: 3
 
 - type: listing
   id: UplinkTTIChemicalSynthesisKit

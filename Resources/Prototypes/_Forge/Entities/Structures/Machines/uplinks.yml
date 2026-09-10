@@ -14,7 +14,7 @@
   - type: Advertise
     pack: FactionUplinkAds
   - type: Sprite
-    sprite: Forge/Structures/Machines/VendingMachines/tti_vendor.rsi
+    sprite: _Forge/Structures/Machines/VendingMachines/tti_vendor.rsi
     noRot: true
     layers:
     - state: tti
